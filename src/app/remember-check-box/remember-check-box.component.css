@@ -1,4 +1,10 @@
 div {
     display: flex;
     align-items: flex-start;
+    flex-direction: row;
+}
+
+p {
+    margin: 1px;
+    padding: 1px;
 }

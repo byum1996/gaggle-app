@@ -11,6 +11,7 @@ import { RegisterLinkComponent } from './register-link/register-link.component';
 import { EmailFieldComponent } from './email-field/email-field.component';
 import { NewUserDialogComponent } from './new-user-dialog/new-user-dialog.component';
 import { LoginBodyComponent } from './login-body/login-body.component';
+import { LoginFooterComponent } from './login-footer/login-footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LoginBodyComponent } from './login-body/login-body.component';
     RegisterLinkComponent,
     EmailFieldComponent,
     NewUserDialogComponent,
-    LoginBodyComponent
+    LoginBodyComponent,
+    LoginFooterComponent
   ],
   imports: [
     BrowserModule,
