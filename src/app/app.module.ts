@@ -12,6 +12,7 @@ import { EmailFieldComponent } from './email-field/email-field.component';
 import { NewUserDialogComponent } from './new-user-dialog/new-user-dialog.component';
 import { LoginBodyComponent } from './login-body/login-body.component';
 import { LoginFooterComponent } from './login-footer/login-footer.component';
+import { ForgotPasswordLinkComponent } from './forgot-password-link/forgot-password-link.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { LoginFooterComponent } from './login-footer/login-footer.component';
     EmailFieldComponent,
     NewUserDialogComponent,
     LoginBodyComponent,
-    LoginFooterComponent
+    LoginFooterComponent,
+    ForgotPasswordLinkComponent
   ],
   imports: [
     BrowserModule,
