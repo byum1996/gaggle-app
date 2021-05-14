@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+input {
+    min-width: 192px;
+    max-width: 272px;
+    padding: 8px;
+    margin: 8px;
+}

@@ -10,6 +10,7 @@ import { SignOnButtonComponent } from './sign-on-button/sign-on-button.component
 import { RegisterLinkComponent } from './register-link/register-link.component';
 import { EmailFieldComponent } from './email-field/email-field.component';
 import { NewUserDialogComponent } from './new-user-dialog/new-user-dialog.component';
+import { LoginBodyComponent } from './login-body/login-body.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NewUserDialogComponent } from './new-user-dialog/new-user-dialog.compon
     SignOnButtonComponent,
     RegisterLinkComponent,
     EmailFieldComponent,
-    NewUserDialogComponent
+    NewUserDialogComponent,
+    LoginBodyComponent
   ],
   imports: [
     BrowserModule,
