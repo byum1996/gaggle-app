@@ -13,6 +13,8 @@ import { NewUserDialogComponent } from './new-user-dialog/new-user-dialog.compon
 import { LoginBodyComponent } from './login-body/login-body.component';
 import { LoginFooterComponent } from './login-footer/login-footer.component';
 import { ForgotPasswordLinkComponent } from './forgot-password-link/forgot-password-link.component';
+import { CancelButtonComponent } from './cancel-button/cancel-button.component';
+import { RegisterAccountButtonComponent } from './register-account-button/register-account-button.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ForgotPasswordLinkComponent } from './forgot-password-link/forgot-passw
     NewUserDialogComponent,
     LoginBodyComponent,
     LoginFooterComponent,
-    ForgotPasswordLinkComponent
+    ForgotPasswordLinkComponent,
+    CancelButtonComponent,
+    RegisterAccountButtonComponent
   ],
   imports: [
     BrowserModule,

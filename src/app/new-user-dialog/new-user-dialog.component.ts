@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./new-user-dialog.component.css']
 })
 export class NewUserDialogComponent implements OnInit {
-  title = "New User"
+  title = "New Account"
 
   constructor() { }
 
