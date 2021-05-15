@@ -15,6 +15,7 @@ import { LoginFooterComponent } from './login-footer/login-footer.component';
 import { ForgotPasswordLinkComponent } from './forgot-password-link/forgot-password-link.component';
 import { CancelButtonComponent } from './cancel-button/cancel-button.component';
 import { RegisterAccountButtonComponent } from './register-account-button/register-account-button.component';
+import { HeaderLogoComponent } from './header-logo/header-logo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterAccountButtonComponent } from './register-account-button/regist
     LoginFooterComponent,
     ForgotPasswordLinkComponent,
     CancelButtonComponent,
-    RegisterAccountButtonComponent
+    RegisterAccountButtonComponent,
+    HeaderLogoComponent,
   ],
   imports: [
     BrowserModule,

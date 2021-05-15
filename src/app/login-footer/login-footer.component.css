@@ -3,4 +3,7 @@ div {
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+    position: absolute;
+    left: 350px;
+    top: 727px;
 }
