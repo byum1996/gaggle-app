@@ -1,1 +1,5 @@
-<button>Register</button>
+<button (click)="openModal('NewUserDialog')">Register</button>
+
+<jw-modal id="NewUserDialog">
+    <app-new-user-dialog [closeModalCallback]="closeModalCallback"></app-new-user-dialog>
+</jw-modal>

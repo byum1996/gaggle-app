@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-new-user-dialog',
@@ -13,4 +13,6 @@ export class NewUserDialogComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  @Input()
+  closeModalCallback: () => void;
 }

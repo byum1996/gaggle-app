@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cancel-button',
@@ -12,4 +12,10 @@ export class CancelButtonComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onClickClose() {
+    this.closeModalCallback();
+  }
+
+  @Input()
+  closeModalCallback: () => void;
 }

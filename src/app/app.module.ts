@@ -16,6 +16,8 @@ import { ForgotPasswordLinkComponent } from './forgot-password-link/forgot-passw
 import { CancelButtonComponent } from './cancel-button/cancel-button.component';
 import { RegisterAccountButtonComponent } from './register-account-button/register-account-button.component';
 import { HeaderLogoComponent } from './header-logo/header-logo.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ModalModule } from './modal';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { HeaderLogoComponent } from './header-logo/header-logo.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ModalModule
   ],
   providers: [],
   bootstrap: [AppComponent]

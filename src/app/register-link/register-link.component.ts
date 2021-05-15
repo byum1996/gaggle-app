@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ModalService } from '../modal';
 
 @Component({
   selector: 'app-register-link',
@@ -7,9 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterLinkComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private modalService: ModalService) { }
+  
   ngOnInit(): void {
+  }
+
+  openModal(id: string) {
+    this.modalService.open(id);
+  }
+
+  closeModal(id: string) {
+      console.log(`closing ${id}`);
+      this.modalService.close(id);
+  }
+  
+  closeModalCallback = (): void => {
+    this.closeModal('NewUserDialog');
   }
 
 }
