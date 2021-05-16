@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ModalService } from '../modal';
+import { ModalService } from '../../modal';
 
 @Component({
   selector: 'app-register-link',
