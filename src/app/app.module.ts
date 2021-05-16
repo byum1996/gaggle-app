@@ -20,6 +20,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalModule } from './modal';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ApplicationViewComponent } from './application-view/application-view.component';
+import { HeaderFirstComponent } from './application-view/header-first/header-first.component';
+import { GaggleLogoComponent } from './application-view/gaggle-logo/gaggle-logo.component';
+import { SaveIndicatorComponent } from './application-view/save-indicator/save-indicator.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +42,9 @@ import { ApplicationViewComponent } from './application-view/application-view.co
     HeaderLogoComponent,
     LoginPageComponent,
     ApplicationViewComponent,
+    HeaderFirstComponent,
+    GaggleLogoComponent,
+    SaveIndicatorComponent,
   ],
   imports: [
     BrowserModule,

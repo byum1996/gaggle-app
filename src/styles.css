@@ -4,12 +4,5 @@ html, body {
     height: 100%;
 }
 
-.Login {
-    background-image: url("assets/hero-image.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 50% 100%;
-    height: 100vh;
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+

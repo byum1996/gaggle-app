@@ -1,0 +1,26 @@
+div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.AlertIcon {
+    margin: 2px;
+}
+
+.LoadingIcon {
+    height: 17px;
+    margin-top: 7px;
+}
+
+.Save {
+    padding: 7px;
+    margin: 1px;
+    font-family: Arial;
+    margin-right: 30px;
+}
+
+.Retrying {
+    padding: 5px;
+    margin: 2px;
+    font-family: Arial;
+}
