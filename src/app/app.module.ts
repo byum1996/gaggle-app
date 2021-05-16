@@ -26,6 +26,8 @@ import { SaveIndicatorComponent } from './application-view/header-first/save-ind
 import { HeaderSecondComponent } from './application-view/header-second/header-second.component';
 import { LeftButtonsComponent } from './application-view/header-second/left-buttons/left-buttons.component';
 import { FilterExportComponent } from './application-view/header-second/filter-export/filter-export.component';
+import { HeaderThirdComponent } from './application-view/header-third/header-third.component';
+import { DateTypeStatusComponent } from './application-view/header-third/date-type-status/date-type-status.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import { FilterExportComponent } from './application-view/header-second/filter-e
     HeaderSecondComponent,
     LeftButtonsComponent,
     FilterExportComponent,
+    HeaderThirdComponent,
+    DateTypeStatusComponent,
   ],
   imports: [
     BrowserModule,
