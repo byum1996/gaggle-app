@@ -21,8 +21,10 @@ import { ModalModule } from './modal';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ApplicationViewComponent } from './application-view/application-view.component';
 import { HeaderFirstComponent } from './application-view/header-first/header-first.component';
-import { GaggleLogoComponent } from './application-view/gaggle-logo/gaggle-logo.component';
-import { SaveIndicatorComponent } from './application-view/save-indicator/save-indicator.component';
+import { GaggleLogoComponent } from './application-view/header-first/gaggle-logo/gaggle-logo.component';
+import { SaveIndicatorComponent } from './application-view/header-first/save-indicator/save-indicator.component';
+import { HeaderSecondComponent } from './application-view/header-second/header-second.component';
+import { LeftButtonsComponent } from './application-view/header-second/left-buttons/left-buttons.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { SaveIndicatorComponent } from './application-view/save-indicator/save-i
     HeaderFirstComponent,
     GaggleLogoComponent,
     SaveIndicatorComponent,
+    HeaderSecondComponent,
+    LeftButtonsComponent,
   ],
   imports: [
     BrowserModule,
