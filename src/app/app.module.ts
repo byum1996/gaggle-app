@@ -25,6 +25,7 @@ import { GaggleLogoComponent } from './application-view/header-first/gaggle-logo
 import { SaveIndicatorComponent } from './application-view/header-first/save-indicator/save-indicator.component';
 import { HeaderSecondComponent } from './application-view/header-second/header-second.component';
 import { LeftButtonsComponent } from './application-view/header-second/left-buttons/left-buttons.component';
+import { FilterExportComponent } from './application-view/header-second/filter-export/filter-export.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { LeftButtonsComponent } from './application-view/header-second/left-butt
     SaveIndicatorComponent,
     HeaderSecondComponent,
     LeftButtonsComponent,
+    FilterExportComponent,
   ],
   imports: [
     BrowserModule,
