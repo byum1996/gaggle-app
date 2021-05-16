@@ -1,4 +1,9 @@
-div {
+.Header {
     display: flex;
     justify-content: space-between;
+}
+
+.Divider {
+    border-bottom: 1px solid gray;
+    opacity: 0.3;
 }

@@ -1,7 +1,6 @@
 .ThreeButtons {
     display: flex;
     flex-direction: row;
-    padding: 20px 30px;
     margin: 10px;
 }
 

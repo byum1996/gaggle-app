@@ -4,6 +4,11 @@
     justify-content: center;
     align-items: flex-end;
     position: absolute;
-    left: 19%;
+    left: 18%;
     bottom: 10%;
+}
+
+.Divider {
+    border-left: 1px solid gray;
+    height: 50px;
 }

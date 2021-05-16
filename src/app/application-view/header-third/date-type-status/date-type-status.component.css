@@ -42,3 +42,10 @@ p {
     font-weight: bolder;
     color: gray;
 }
+
+.Divider {
+    border-left: 1px solid gray;
+    opacity: 0.5;
+    height: 23px;
+    margin-right: 25px
+}

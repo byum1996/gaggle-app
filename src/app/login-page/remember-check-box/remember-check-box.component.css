@@ -2,7 +2,7 @@ div {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    margin: auto;
+    margin-right: 131px;
 }
 
 p {
