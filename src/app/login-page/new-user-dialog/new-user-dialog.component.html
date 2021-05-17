@@ -1,13 +1,19 @@
-<div class="Dialog">
-    <div class="DialogBody">
-        <div class="Title">
-            <h3>{{title}}</h3>
-            <app-username-field></app-username-field>
+<div class="ChickBody">
+    <app-chick-logo></app-chick-logo>
+    <div class="Divider"></div>
+    <div class="Dialog">
+        <div class="DialogBody">
+            <div class="Title">
+                <h3>{{title}}</h3>
+                <app-username-field></app-username-field>
+            </div>
+            <app-password-field></app-password-field>
+            <app-email-field></app-email-field>
         </div>
-        <app-password-field></app-password-field>
-        <app-email-field></app-email-field>
     </div>
 </div>
+
+<div class="Divider"></div>
 
 <div class="DialogFooter">
     <app-cancel-button [closeModalCallback]="closeModalCallback"></app-cancel-button>

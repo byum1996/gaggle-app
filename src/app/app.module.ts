@@ -28,6 +28,7 @@ import { LeftButtonsComponent } from './application-view/header-second/left-butt
 import { FilterExportComponent } from './application-view/header-second/filter-export/filter-export.component';
 import { HeaderThirdComponent } from './application-view/header-third/header-third.component';
 import { DateTypeStatusComponent } from './application-view/header-third/date-type-status/date-type-status.component';
+import { ChickLogoComponent } from './login-page/chick-logo/chick-logo.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { DateTypeStatusComponent } from './application-view/header-third/date-ty
     FilterExportComponent,
     HeaderThirdComponent,
     DateTypeStatusComponent,
+    ChickLogoComponent,
   ],
   imports: [
     BrowserModule,
