@@ -43,3 +43,15 @@ h3 {
     border-bottom: 1px solid gray;
     opacity: 0.5;
 }
+
+.Username {
+    padding: 3px;
+}
+
+.Passowrd {
+    padding: 3px;
+}
+
+.Email {
+    padding: 3px;
+}

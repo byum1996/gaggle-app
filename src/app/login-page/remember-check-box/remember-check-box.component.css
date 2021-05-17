@@ -2,7 +2,7 @@ div {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    margin-right: 131px;
+    margin-right: 200px;
 }
 
 p {
@@ -10,4 +10,5 @@ p {
     padding: 1px;
     font-family: Arial;
     font-size: 13px;
+    opacity: 0.6;
 }

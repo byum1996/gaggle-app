@@ -1,6 +1,14 @@
-div {
+.SaveIndicator {
     display: flex;
     justify-content: flex-end;
+}
+
+.Divider {
+    border-left: 1px solid gray;
+    height: 30px;
+    margin-top: 1px;
+    margin-right: 30px;
+    opacity: 0.5;
 }
 
 .AlertIcon {

@@ -3,6 +3,22 @@
     flex-direction: column;
     align-items: center;
     position: absolute;
-    left: 19%;
+    left: 17%;
     top: 35%;
+}
+
+.username {
+    padding: 2px;
+}
+
+.password {
+    padding: 2px;
+}
+
+.remember {
+    padding: 3px;
+}
+
+.sign {
+    padding: 3px;
 }
