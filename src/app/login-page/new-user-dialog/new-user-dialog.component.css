@@ -1,6 +1,8 @@
 .ChickBody {
     display:flex;
     flex-direction: row;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .Divider {
@@ -25,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .DialogFooter {
