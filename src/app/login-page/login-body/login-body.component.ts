@@ -12,4 +12,7 @@ export class LoginBodyComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  signOn(): void {
+    
+  }
 }
