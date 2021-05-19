@@ -11,6 +11,11 @@ export class PasswordFieldComponent implements OnInit {
     this.passwordValue = null;
   }
 
+  fieldTextType: boolean;
+  toggleFieldTextType() {
+    this.fieldTextType = !this.fieldTextType;
+  }
+
   constructor() { }
 
   ngOnInit(): void {
