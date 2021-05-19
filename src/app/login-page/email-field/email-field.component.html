@@ -1,7 +1,7 @@
 <div class="Container">
     <span>Email</span>
     <div>
-        <input type="email" class="Email" />
-        <img src="/assets/icon--saltire.svg" />
+        <input type="email" class="Email" [(ngModel)]="emailValue" />
+        <img src="/assets/icon--saltire.svg" (click)="clearEmail()" *ngIf="emailValue" />
     </div>
 </div>

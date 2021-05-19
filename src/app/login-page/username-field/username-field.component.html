@@ -1,8 +1,8 @@
 <div class="Container">
     <span>Username</span>
     <div class="UserContainer">
-        <input type="text" class="Username" />
-        <img src="/assets/icon--saltire.svg" />
+        <input type="text" class="Username" [(ngModel)]="usernameValue" />
+        <img src="/assets/icon--saltire.svg" (click)="clearUsername()" *ngIf="usernameValue" />
     </div>
     
 </div>

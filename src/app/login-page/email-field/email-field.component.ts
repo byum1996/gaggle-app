@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./email-field.component.css']
 })
 export class EmailFieldComponent implements OnInit {
+  emailValue:string = '';
+  clearEmail() {
+    this.emailValue = null;
+  }
 
   constructor() { }
 

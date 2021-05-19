@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./username-field.component.css']
 })
 export class UsernameFieldComponent implements OnInit {
+  usernameValue:string = '';
+  clearUsername() {
+    this.usernameValue = null;
+  }
 
   constructor() { }
 

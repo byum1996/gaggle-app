@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./password-field.component.css']
 })
 export class PasswordFieldComponent implements OnInit {
+  passwordValue:string = '';
+  clearPassword() {
+    this.passwordValue = null;
+  }
 
   constructor() { }
 

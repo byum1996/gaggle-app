@@ -25,3 +25,7 @@ span {
     font-family: Arial;
     opacity: 0.6;
 }
+
+img {
+    cursor: pointer;
+}

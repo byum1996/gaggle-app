@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { ModalModule } from './modal';
+import { FormsModule } from '@angular/forms';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UsernameFieldComponent } from './login-page/username-field/username-field.component';
@@ -17,7 +20,6 @@ import { CancelButtonComponent } from './login-page/cancel-button/cancel-button.
 import { RegisterAccountButtonComponent } from './login-page/register-account-button/register-account-button.component';
 import { HeaderLogoComponent } from './login-page/header-logo/header-logo.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ModalModule } from './modal';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { ApplicationViewComponent } from './application-view/application-view.component';
 import { HeaderFirstComponent } from './application-view/header-first/header-first.component';
@@ -62,7 +64,8 @@ import { ChickLogoComponent } from './login-page/chick-logo/chick-logo.component
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ModalModule
+    ModalModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
